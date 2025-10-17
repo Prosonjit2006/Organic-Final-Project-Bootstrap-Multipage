@@ -3,6 +3,11 @@
 
 
 
+:root{
+    --green: #A1BE61;
+}
+
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -59,11 +64,11 @@ h6{
 }
 
 p{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .container{
-    max-width: 1170px;
+    max-width: 1320px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -90,3 +95,45 @@ p{
 
 
 /* ----- special case of the font size  ----------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* topbar part */
+
+.topbar{
+    background-color: #FBFBFB;
+    padding: 15px 0;
+}
+
+.topbar-content, .mail-phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail-phone{
+    gap: 15px;
+}
+
+
+
+/* navbar part */
+
+.navbar{
+    background-color: var(--green);
+}
