@@ -137,3 +137,17 @@ p{
 .navbar{
     background-color: var(--green);
 }
+
+
+
+
+
+
+/* banner part */
+
+.banner{
+    background-image: url('../img/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 127px);
+}
