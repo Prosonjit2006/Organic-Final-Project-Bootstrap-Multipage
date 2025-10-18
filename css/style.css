@@ -47,22 +47,7 @@ h1 {
 h2 {
   font-size: 48px;
   font-weight: bold;
-}
-h3 {
-  font-size: px;
-  font-weight: 650;
-}
-h4 {
-  font-size: px;
-  font-weight: 650;
-}
-h5 {
-  font-size: px;
-  font-weight: 650;
-}
-h6 {
-  font-size: px;
-  font-weight: 650;
+  font-family: raleway;
 }
 
 .section-padding {
@@ -131,11 +116,20 @@ p {
 .mail-phone a {
   color: #333333;
 }
+.icon-set {
+  width: 21px;
+  margin-top: 11px;
+  margin-right: 5px;
+}
 
 /* navbar part */
 
 .navbar {
   background-color: var(--green);
+  height: 75px;
+}
+.navbar-brand {
+  color: black;
 }
 .navlist a {
   color: #333333;
@@ -143,10 +137,15 @@ p {
 }
 .navlist a:hover {
   color: white;
+  box-shadow: 0 0 5px gray;
+  border-radius: 40px;
   transform: scale(1.1) translateY(-3px);
 }
 .icons i {
   color: #333333;
+}
+.navbar-toggler {
+  display: block;
 }
 
 /* banner part */
@@ -180,9 +179,18 @@ p {
 }
 
 /* deal part */
-.deal {
+.deals {
   overflow: hidden;
   background-color: #fbfbfb;
+}
+.deals .container {
+  position: relative;
+}
+.right-last {
+  position: absolute;
+  right: -32.8%;
+  top: 0;
+  height: 318px;
 }
 .deal-box {
   background-color: var(--green);
@@ -190,7 +198,7 @@ p {
   width: 100%;
   max-height: 390px;
   height: 100%;
-  padding: 20px;
+  padding: 40px 20px 20px 40px;
 }
 
 .deal-btn {
@@ -302,6 +310,7 @@ p {
   font-family: raleway;
   font-weight: bold;
   color: black;
+  text-decoration: underline;
 }
 
 /* fruit & vegetable */
@@ -340,6 +349,7 @@ p {
   font-family: raleway;
   font-weight: bold;
   color: black;
+  text-decoration: underline;
 }
 
 /* about-2 part*/
@@ -371,6 +381,9 @@ p {
 /* review part */
 .review {
   padding: 88px 0;
+}
+.review h2 {
+  margin-bottom: 120px;
 }
 .card-4 {
   position: relative;
