@@ -217,6 +217,9 @@ p {
   font-size: 14px;
   font-family: raleway;
 }
+.light-green{
+  background-color: var(--light-green);
+}
 
 /* about part */
 
@@ -293,13 +296,68 @@ p {
 }
 
 /* offer part */
-
-.card-2 {
+.offer{
+  padding: 20px 0 90px;
 }
 
-.card-2-content p,
-a {
+
+
+.card-2-content {
+  border: 1px solid #333333;
+  padding: 25px 31px;
+  height: 95px;
+}
+
+.card-2-content p {
+  max-width: 135px;
+  width: 100%;
   font-size: 14px;
   font-family: raleway;
   font-weight: bold;
+  margin-top: 12px;
+}
+.card-2-content a{
+   font-size: 14px;
+  font-family: raleway;
+  font-weight: bold;
+  color: black;
+}
+
+/* fruit & vegetable */
+
+.card-3{
+  background-color: var(--green);
+ 
+}
+.card-3 .img{
+  /* padding: 10px; */
+  height: 130px;
+}
+.card-3 figure{
+  margin: 0 auto;
+  width: 150px;
+  /* height: 150px; */
+}
+
+.card-3-content {
+  border: 1px solid #646464;
+  border-top: none;
+  padding: 25px 31px;
+  height: 95px;
+  background-color: white;
+}
+
+.card-3-content p {
+  max-width: 135px;
+  width: 100%;
+  font-size: 14px;
+  font-family: raleway;
+  font-weight: bold;
+  margin-top: 12px;
+}
+.card-3-content a{
+   font-size: 14px;
+  font-family: raleway;
+  font-weight: bold;
+  color: black;
 }
