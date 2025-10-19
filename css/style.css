@@ -144,8 +144,10 @@ p {
 .icons i {
   color: #333333;
 }
-.navbar-toggler {
-  display: block;
+.navToggler {
+  display: block ;
+  color: black;
+  font-size: 22px;
 }
 
 /* banner part */
@@ -162,6 +164,9 @@ p {
   display: flex;
   /* justify-content: center; */
   align-items: center;
+}
+.banner-content{
+  padding: 20px 0 ;
 }
 
 .banner-content h1 {
@@ -188,9 +193,9 @@ p {
 }
 .right-last {
   position: absolute;
-  right: -32.8%;
   top: 0;
-  height: 318px;
+  right: -100%;
+  height: 325px;
 }
 .deal-box {
   background-color: var(--green);
@@ -572,6 +577,50 @@ input[type="email"] {
 
 
   /* navbar part */
+/*
+  nav {
+    flex-direction: column;
+    position: relative;
+  }
+  .navlist {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    width: 105%;
+    margin: 0 -15px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start; 
+
+    display: none;
+  }
+
+  .showlist {
+    display: block;
+  }
+
+  */
+  .navToggler{
+    display: none !important;
+  }
+  nav{
+    position: relative;
+  }
+  .navlist{
+    background-color: var(--green);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  .icons{
+    position: absolute;
+    top: 4px;
+    right: 15px;
+  }
+
 
   /* banner part */
   .banner-content h1{
@@ -713,6 +762,22 @@ input[type="email"] {
     width: 25%;
   }
 
+  .mail-phone{
+    flex-direction: column;
+    gap: 0;
+    
+  }
+  #siz11{
+    font-size: 16px;
+  }
+  .mail-phone li{
+    line-height: 0;
+  }
+  .icon-set-2{
+    width: 13px;
+    margin-top: 13px;
+  }
+
   .deal-box{
     height: 420px;
   }
@@ -750,8 +815,8 @@ input[type="email"] {
   
   .icons-2{
     position: absolute;
-    top: 95%;
-    left: 15%;
+    top: 55%;
+    left: 10%;
   }
 }
 
@@ -816,6 +881,30 @@ input[type="email"] {
   }
 
 
+  .mail-phone{
+    flex-direction: column;
+    gap: 0;
+    
+  }
+  #siz11{
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+  }
+  #siz11 i{
+    margin-top: 3px;
+    margin-right: 5px;
+  }
+  .mail-phone li{
+    line-height: 0;
+  }
+  .icon-set-2{
+    width: 13px;
+    margin-top: 13px;
+  }
+
+
+
   .banner-content h1{
     font-size: 40px;
     max-width: 310px;
@@ -872,6 +961,10 @@ input[type="email"] {
   left: 0%;
 }
 
+  .products h2{
+    max-width: 280px;
+    width: 100%;
+  }
 
   .card-4{
     margin: 50px 0 ;
@@ -914,6 +1007,7 @@ input[type="email"] {
   }
   .icons-2{
     margin-left: 40px;
+    margin-top: -60px;
   }
   .cradit-card{
     margin-right: 90px;
