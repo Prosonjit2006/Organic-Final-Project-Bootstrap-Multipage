@@ -65,10 +65,10 @@ p {
   padding: 0 15px;
   margin: 0 auto;
 }
-.btn{
+.btn {
   transition: all 0.75s ease-in-out;
 }
-.btn:hover{
+.btn:hover {
   transform: scale(1.05) translateY(-4px);
 }
 .my-btn {
@@ -149,7 +149,7 @@ p {
   color: #333333;
 }
 .navToggler {
-  display: block ;
+  display: block;
   color: black;
   font-size: 22px;
 }
@@ -169,8 +169,8 @@ p {
   /* justify-content: center; */
   align-items: center;
 }
-.banner-content{
-  padding: 20px 0 ;
+.banner-content {
+  padding: 20px 0;
 }
 
 .banner-content h1 {
@@ -217,7 +217,7 @@ p {
   font-size: 14px;
   font-family: raleway;
 }
-.deal-btn:hover{
+.deal-btn:hover {
   background-color: #5b5454;
   color: white;
 }
@@ -261,8 +261,8 @@ p {
   margin-top: 15px;
   overflow: hidden;
 }
-.card figure{
-  background-color: #FBFBFB;
+.card figure {
+  background-color: #fbfbfb;
   max-width: 200px;
   width: 100%;
   height: 163px;
@@ -270,14 +270,13 @@ p {
   display: flex;
   align-items: center;
   justify-content: center; */
-  transition:  all 0.5s ease-in-out;
-
+  transition: all 0.5s ease-in-out;
 }
 /* .card figure img{
   transition:  all 0.5s ease-in-out;
 
 } */
-.card figure:hover{
+.card figure:hover {
   transform: scale(1.1);
 }
 
@@ -303,7 +302,7 @@ p {
   border-radius: 40px;
   color: white;
 }
-.product-btn:hover{
+.product-btn:hover {
   background-color: #667643;
   color: white;
 }
@@ -476,7 +475,7 @@ input[type="email"] {
   right: 8px;
   top: 8px;
 }
-.email-btn:hover{
+.email-btn:hover {
   background-color: #768a49;
   color: white;
 }
@@ -527,90 +526,56 @@ input[type="email"] {
   right: 5%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* ------------ responsive part ----------- */
 
-
-
-
 /* xxl - 1399px */
-@media screen and (max-width:1399px) {
-  
+@media screen and (max-width: 1399px) {
 }
-
-
-
-
-
-
-
-
-
 
 /* xl - 1199px */
 @media screen and (max-width: 1199px) {
-  .banner{
+  .banner {
     background-color: #33333330;
     background-blend-mode: multiply;
   }
   .banner-content {
     padding: 70px 20px 20px;
   }
-  .banner-content h1{
+  .banner-content h1 {
     font-size: 68px;
   }
-  .banner-content p{
+  .banner-content p {
     max-width: 540px;
     width: 100%;
     margin-bottom: 10px;
   }
-  .right-last{
+  .right-last {
     height: 296px;
     right: -35%;
     display: none;
   }
-  .special-card-content-p{
+  .special-card-content-p {
     padding: 10px;
   }
 }
 
-
-
-
-
-
-
-
-
-
 /* lg - 991px */
 @media screen and (max-width: 991px) {
-  .col-lg-100{
+  .col-lg-100 {
     width: 100%;
   }
-  .col-lg-50{
+  .col-lg-50 {
     width: 50%;
   }
-  .col-lg-33{
+  .col-lg-33 {
     width: 33%;
   }
-  .col-lg-25{
+  .col-lg-25 {
     width: 25%;
   }
 
-
   /* navbar part */
-/*
+  /*
   nav {
     flex-direction: column;
     position: relative;
@@ -634,13 +599,13 @@ input[type="email"] {
   }
 
   */
-  .navToggler{
+  .navToggler {
     display: none !important;
   }
-  nav{
+  nav {
     position: relative;
   }
-  .navlist{
+  .navlist {
     background-color: var(--green);
     position: absolute;
     top: 100%;
@@ -648,362 +613,324 @@ input[type="email"] {
     right: 0;
     width: 100%;
   }
-  .icons{
+  .icons {
     position: absolute;
     top: 4px;
     right: 15px;
   }
 
-
   /* banner part */
-  .banner-content h1{
+  .banner-content h1 {
     font-size: 50px;
   }
-  .banner-content p{
+  .banner-content p {
     font-size: 18px;
     max-width: 450px;
     width: 100%;
     margin-bottom: 25px;
   }
-   .right-last{
+  .right-last {
     height: 268px;
     right: -45%;
   }
-  .about figure{
+  .about figure {
     margin-top: 60px;
   }
 
-  .card-content{
+  .card-content {
     height: 115px;
     position: relative;
   }
-  
-  .card-2-content{
+
+  .card-2-content {
     margin-top: -7px;
     gap: 10px;
   }
-  .card-3-content{
+  .card-3-content {
     gap: 10px;
   }
-  
-  .about-2 figure{
+
+  .about-2 figure {
     margin-top: 100px;
   }
-  .card-4-content p{
+  .card-4-content p {
     font-size: 18px;
   }
-  .card-4 figure{
+  .card-4 figure {
     left: 21%;
   }
   input[type="email"] {
-  width: 558px;
-  height: 58px;
-}
+    width: 558px;
+    height: 58px;
+  }
 
-  .email-btn{
+  .email-btn {
     padding: 9px;
   }
 }
 
-
-
-
-
-
-
-
-
-
 /* md - 767px */
 @media screen and (max-width: 767px) {
-  .col-md-100{
+  .col-md-100 {
     width: 100%;
   }
-  .col-md-50{
+  .col-md-50 {
     width: 50%;
   }
-  .col-md-33{
+  .col-md-33 {
     width: 33%;
   }
-  .col-md-25{
+  .col-md-25 {
     width: 25%;
   }
 
-
-  .deal-box{
+  .deal-box {
     height: 320px;
     margin: 20px auto 0;
   }
-  .right-last{
+  .right-last {
     height: 303px;
     right: -80%;
     display: none;
   }
 
-  .about figure{
+  .about figure {
     margin: 0 auto 120px;
-    
   }
 
-  .about-2 p{
+  .about-2 p {
     max-width: 750px;
     width: 100%;
   }
-  .about-2 figure{
+  .about-2 figure {
     margin: 0 auto;
   }
-  
-  .review h2{
+
+  .review h2 {
     margin-bottom: 0px;
     text-align: center;
   }
-  .card-4{
+  .card-4 {
     margin-left: 150px;
     margin-top: 100px;
   }
   input[type="email"] {
-  width: 350px;
-  height: 58px;
+    width: 350px;
+    height: 58px;
   }
 
-  .email-btn{
+  .email-btn {
     padding: 9px;
   }
-
 }
-
-
-
-
-
-
-
-
-
 
 /* sd - 575px */
 @media screen and (max-width: 575px) {
-  .col-sd-100{
+  .col-sd-100 {
     width: 100%;
   }
-  .col-sd-50{
+  .col-sd-50 {
     width: 50%;
   }
-  .col-sd-33{
+  .col-sd-33 {
     width: 33%;
   }
-  .col-sd-25{
+  .col-sd-25 {
     width: 25%;
   }
 
-  .mail-phone{
+  .mail-phone {
     flex-direction: column;
     gap: 0;
-    
   }
-  #siz11{
+  #siz11 {
     font-size: 16px;
   }
-  .mail-phone li{
+  .mail-phone li {
     line-height: 0;
   }
-  .icon-set-2{
+  .icon-set-2 {
     width: 13px;
     margin-top: 13px;
   }
 
-  .deal-box{
+  .deal-box {
     height: 420px;
   }
-  .deal-img{
+  .deal-img {
     padding: 100px;
     margin-top: -90px;
   }
-  .deal-img-2{
+  .deal-img-2 {
     padding: 120px;
     margin-top: -170px;
   }
 
-  .card-4{
+  .card-4 {
     margin-left: 70px;
     margin-top: 100px;
   }
-  .card-4 figure{
+  .card-4 figure {
     left: 26%;
   }
-   input[type="email"] {
-  width: 250px;
-  height: 50px;
+  input[type="email"] {
+    width: 250px;
+    height: 50px;
   }
 
-  .email-btn{
+  .email-btn {
     top: 7px;
     right: 7px;
     padding: 7px;
     font-size: 14px;
   }
 
-  .footer .row .col-6{
+  .footer .row .col-6 {
     text-align: center;
   }
-  
-  .icons-2{
+
+  .icons-2 {
     position: absolute;
     top: 55%;
     left: 10%;
   }
 }
 
-
-
 /* mid of sd-xs - 530px */
 @media screen and (max-width: 530px) {
-  .deal-box{
+  .deal-box {
     height: 420px;
   }
-  .deal-img{
+  .deal-img {
     padding: 70px;
     margin-top: -50px;
   }
-  .deal-img-2{
+  .deal-img-2 {
     padding: 80px;
     margin-top: -130px;
   }
 
-   .about figure{
+  .about figure {
     margin: 0 auto 230px;
   }
 
-  
   .about figure::after {
-  width: 50px;
-  height: 50px;
-  bottom: 0%;
-  right: 62%;
+    width: 50px;
+    height: 50px;
+    bottom: 0%;
+    right: 62%;
+  }
+
+  .about-2 figure {
+    margin-bottom: 100px;
+  }
+
+  .about-2 figure::after {
+    width: 50px;
+    height: 50px;
+    bottom: 0%;
+    left: 0%;
+  }
 }
-
-.about-2 figure{
-  margin-bottom: 100px;
-}
-  
- .about-2 figure::after {
-  width: 50px;
-  height: 50px;
-  bottom: 0%;
-  left: 0%;
-}
-
-}
-
-
-
-
 
 /* xs - 320px */
 @media screen and (max-width: 320px) {
-  .col-xs-100{
+  .col-xs-100 {
     width: 100%;
   }
-  .col-xs-50{
+  .col-xs-50 {
     width: 50%;
   }
-  .col-xs-33{
+  .col-xs-33 {
     width: 33%;
   }
-  .col-xs-25{
+  .col-xs-25 {
     width: 25%;
   }
 
-
-  .mail-phone{
+  .mail-phone {
     flex-direction: column;
     gap: 0;
-    
   }
-  #siz11{
+  #siz11 {
     font-size: 11px;
     display: flex;
     align-items: center;
   }
-  #siz11 i{
+  #siz11 i {
     margin-top: 3px;
     margin-right: 5px;
   }
-  .mail-phone li{
+  .mail-phone li {
     line-height: 0;
   }
-  .icon-set-2{
+  .icon-set-2 {
     width: 13px;
     margin-top: 13px;
   }
 
-
-
-  .banner-content h1{
+  .banner-content h1 {
     font-size: 40px;
     max-width: 310px;
     width: 100%;
   }
-  .banner-content p{
+  .banner-content p {
     font-size: 16px;
   }
-  .banner-btn{
+  .banner-btn {
     width: 120px;
     padding: 10px 15px;
     font-size: 14px;
     margin-left: 70px;
   }
 
-
-
-  h2{
+  h2 {
     font-size: 36px;
   }
 
-  .deal-box{
+  .deal-box {
     height: 420px;
   }
-  .deal-img{
+  .deal-img {
     padding: 0px;
     margin-top: 15px;
   }
-  .deal-img-2{
+  .deal-img-2 {
     padding: 40px;
     margin-top: -60px;
   }
 
-  .about figure{
+  .about figure {
     margin: 0 auto 230px;
   }
 
-  
   .about figure::after {
-  width: 50px;
-  height: 50px;
-  bottom: 0%;
-  right: 62%;
-}
+    width: 50px;
+    height: 50px;
+    bottom: 0%;
+    right: 62%;
+  }
 
-.about-2 figure{
-  margin-bottom: 100px;
-}
-  
- .about-2 figure::after {
-  width: 50px;
-  height: 50px;
-  bottom: 0%;
-  left: 0%;
-}
+  .about-2 figure {
+    margin-bottom: 100px;
+  }
 
-  .products h2{
+  .about-2 figure::after {
+    width: 50px;
+    height: 50px;
+    bottom: 0%;
+    left: 0%;
+  }
+
+  .products h2 {
     max-width: 280px;
     width: 100%;
   }
 
-  .card-4{
-    margin: 50px 0 ;
+  .card-4 {
+    margin: 50px 0;
   }
-  .card-4 figure{
+  .card-4 figure {
     width: 100px;
     top: -15%;
     left: 30%;
@@ -1013,39 +940,38 @@ input[type="email"] {
     padding: 70px 20px 20px;
   }
 
-  .mail-content{
+  .mail-content {
     position: relative;
-    height: 250px
+    height: 250px;
   }
-  .mail-content figure{
+  .mail-content figure {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
   }
-  #email-flex{
+  #email-flex {
     position: absolute;
     bottom: 20px;
     left: -15px;
     right: 0;
   }
-  .email-btn{
+  .email-btn {
     right: 17px;
   }
 
-  .footer p{
+  .footer p {
     font-size: 16px;
   }
-  #fs-14{
+  #fs-14 {
     font-size: 50px;
   }
-  .icons-2{
+  .icons-2 {
     margin-left: 40px;
     margin-top: -60px;
   }
-  .cradit-card{
+  .cradit-card {
     margin-right: 90px;
     margin-bottom: 40px;
   }
-
 }
