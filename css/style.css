@@ -223,8 +223,10 @@ p {
 }
 
 .about figure {
-  width: 345px;
-  height: 375px;
+  max-width: 345px;
+  width: 100%;
+  max-height: 375px;
+  height: 100%;
   position: relative;
 }
 
@@ -365,7 +367,8 @@ p {
   letter-spacing: 0.6px;
 }
 .about-2 figure {
-  width: 365px;
+  max-width: 365px;
+  width: 100%;
   margin-left: auto;
   position: relative;
 }
@@ -644,6 +647,11 @@ input[type="email"] {
     width: 25%;
   }
 
+
+  .deal-box{
+    height: 320px;
+    margin: 20px auto 0;
+  }
   .right-last{
     height: 303px;
     right: -80%;
@@ -705,10 +713,24 @@ input[type="email"] {
     width: 25%;
   }
 
+  .deal-box{
+    height: 420px;
+  }
+  .deal-img{
+    padding: 100px;
+    margin-top: -90px;
+  }
+  .deal-img-2{
+    padding: 120px;
+    margin-top: -170px;
+  }
 
   .card-4{
     margin-left: 70px;
     margin-top: 100px;
+  }
+  .card-4 figure{
+    left: 26%;
   }
    input[type="email"] {
   width: 250px;
@@ -716,9 +738,61 @@ input[type="email"] {
   }
 
   .email-btn{
+    top: 7px;
+    right: 7px;
     padding: 7px;
     font-size: 14px;
   }
+
+  .footer .row .col-6{
+    text-align: center;
+  }
+  
+  .icons-2{
+    position: absolute;
+    top: 95%;
+    left: 15%;
+  }
+}
+
+
+
+/* mid of sd-xs - 530px */
+@media screen and (max-width: 530px) {
+  .deal-box{
+    height: 420px;
+  }
+  .deal-img{
+    padding: 70px;
+    margin-top: -50px;
+  }
+  .deal-img-2{
+    padding: 80px;
+    margin-top: -130px;
+  }
+
+   .about figure{
+    margin: 0 auto 230px;
+  }
+
+  
+  .about figure::after {
+  width: 50px;
+  height: 50px;
+  bottom: 0%;
+  right: 62%;
+}
+
+.about-2 figure{
+  margin-bottom: 100px;
+}
+  
+ .about-2 figure::after {
+  width: 50px;
+  height: 50px;
+  bottom: 0%;
+  left: 0%;
+}
 
 }
 
@@ -726,22 +800,124 @@ input[type="email"] {
 
 
 
-
-
-
-
-/* sd - 320px */
+/* xs - 320px */
 @media screen and (max-width: 320px) {
-  .col-sd-100{
+  .col-xs-100{
     width: 100%;
   }
-  .col-sd-50{
+  .col-xs-50{
     width: 50%;
   }
-  .col-sd-33{
+  .col-xs-33{
     width: 33%;
   }
-  .col-sd-25{
+  .col-xs-25{
     width: 25%;
   }
+
+
+  .banner-content h1{
+    font-size: 40px;
+    max-width: 310px;
+    width: 100%;
+  }
+  .banner-content p{
+    font-size: 16px;
+  }
+  .banner-btn{
+    width: 120px;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-left: 70px;
+  }
+
+
+
+  h2{
+    font-size: 36px;
+  }
+
+  .deal-box{
+    height: 420px;
+  }
+  .deal-img{
+    padding: 0px;
+    margin-top: 15px;
+  }
+  .deal-img-2{
+    padding: 40px;
+    margin-top: -60px;
+  }
+
+  .about figure{
+    margin: 0 auto 230px;
+  }
+
+  
+  .about figure::after {
+  width: 50px;
+  height: 50px;
+  bottom: 0%;
+  right: 62%;
+}
+
+.about-2 figure{
+  margin-bottom: 100px;
+}
+  
+ .about-2 figure::after {
+  width: 50px;
+  height: 50px;
+  bottom: 0%;
+  left: 0%;
+}
+
+
+  .card-4{
+    margin: 50px 0 ;
+  }
+  .card-4 figure{
+    width: 100px;
+    top: -15%;
+    left: 30%;
+  }
+  .card-4-content {
+    height: 320px;
+    padding: 70px 20px 20px;
+  }
+
+  .mail-content{
+    position: relative;
+    height: 250px
+  }
+  .mail-content figure{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  #email-flex{
+    position: absolute;
+    bottom: 20px;
+    left: -15px;
+    right: 0;
+  }
+  .email-btn{
+    right: 17px;
+  }
+
+  .footer p{
+    font-size: 16px;
+  }
+  #fs-14{
+    font-size: 50px;
+  }
+  .icons-2{
+    margin-left: 40px;
+  }
+  .cradit-card{
+    margin-right: 90px;
+    margin-bottom: 40px;
+  }
+
 }
