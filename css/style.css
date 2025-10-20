@@ -88,6 +88,20 @@ p {
   background-color: #8da35e;
 }
 
+nav {
+  position: -webkit-sticky;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  border-top: 0;
+}
+
 /* ----- special case of the font size  ----------------------------------------------------------------------------------------------*/
 
 .siz24 {
