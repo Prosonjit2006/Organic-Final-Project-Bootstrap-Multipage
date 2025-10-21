@@ -1,23 +1,27 @@
-
-
 /* ========================================================================================= banner part */
 
 .banner {
   background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 127px);
+  height: calc(100vh - 127px); 
+  /* position: relative; */
 }
 
 .banner .container {
   height: 100%;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
 }
 .banner-content {
   padding: 20px 0;
 }
+/* .banner-content{
+  position: absolute;
+  top: 5.5%;
+  left: 7.5%;
+  text-align: start;
+} */
 
 .banner-content h1 {
   max-width: 505px;
@@ -31,6 +35,31 @@
   width: 100%;
   letter-spacing: 1.04px;
   margin: 30px 0 40px;
+}
+
+/* Target the individual indicator elements */
+.carousel-indicators [data-bs-target] {
+    
+    width: 10px;
+    height: 10px;
+
+    
+    border-radius: 50%;
+
+    background-color: #ffffff;
+    border: 2px solid rgb(0, 0, 0);
+
+    opacity: 0.5; 
+    
+}
+
+/* Style the active (currently selected) dot */
+.carousel-indicators .active {
+    opacity: 1; 
+    background-color: #000000;
+    border: none;
+    width: 13px;
+    height: 13px;
 }
 
 /* ========================================================================================== deal part */
@@ -296,53 +325,63 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------ responsive part ----------- */
+/* ========== ------------ responsive part ----------- ========= */
 
 /* xxl - 1399px */
-/* @media screen and (max-width: 1399px) {
-} */
+@media screen and (max-width: 1399px) {
+  /* .banner-content {
+    top: 2%;
+    left: 3%;
+  } */
+}
 
 /* xl - 1199px */
 @media screen and (max-width: 1199px) {
-  .banner {
+  /* banner part */
+  /* .banner {
     background-color: #33333330;
     background-blend-mode: multiply;
-  }
-  .banner-content {
-    padding: 70px 20px 20px;
-  }
+  } 
+  
+
+  .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1); 
+  z-index: 1;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  z-index: 2; 
+}
+
+
+   .carousel-item img{
+    background-color: rgba(0, 0, 0, 0.80);
+    background-blend-mode:darken ;
+  } 
+
+  */
   .banner-content h1 {
     font-size: 68px;
   }
   .banner-content p {
-    max-width: 540px;
+    max-width: 500px;
     width: 100%;
     margin-bottom: 10px;
   }
+
+
+  /* slider part */
   .right-last {
     height: 296px;
     right: -35%;
@@ -368,8 +407,6 @@
     width: 25%;
   }
 
-  
-
   /* banner part */
   .banner-content h1 {
     font-size: 50px;
@@ -380,6 +417,21 @@
     width: 100%;
     margin-bottom: 25px;
   }
+  /* .banner-content {
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%); 
+}
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.15); 
+} */
+
   .right-last {
     height: 268px;
     right: -45%;
@@ -410,7 +462,6 @@
   .card-4 figure {
     left: 21%;
   }
-  
 }
 
 /* md - 767px */
@@ -428,6 +479,19 @@
     width: 25%;
   }
 
+  /* banner part */
+
+  /* .banner-content {
+  top: 55%;
+  left: 35%;
+}
+  .banner-content h1{
+    max-width: 600px;
+    width: 100%;
+    font-size: 48px;
+  } */
+
+
   .deal-box {
     height: 320px;
     margin: 20px auto 0;
@@ -440,6 +504,11 @@
 
   .about figure {
     margin: 0 auto 120px;
+  }
+
+  .card figure{
+    max-width: 229px;
+    width: 100%;
   }
 
   .about-2 p {
@@ -475,6 +544,17 @@
     width: 25%;
   }
 
+  /* .banner-content h1{
+    font-size: 45px;
+  }
+  .banner-content p{
+    font-size: 14px;
+  }
+
+  .card figure{
+    max-width: 260px;
+    width: 100%;
+  } */
 
   .deal-box {
     height: 420px;
@@ -495,7 +575,6 @@
   .card-4 figure {
     left: 26%;
   }
- 
 }
 
 /* mid of sd-xs - 530px */
@@ -622,6 +701,4 @@
     height: 320px;
     padding: 70px 20px 20px;
   }
-
-
 }
