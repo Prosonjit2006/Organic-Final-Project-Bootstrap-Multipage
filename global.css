@@ -51,8 +51,8 @@ h2 {
 }
 
 .section-padding {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 88px;
+  padding-bottom: 88px;
 }
 
 p {
@@ -173,8 +173,9 @@ nav {
 
 
 /* ========================================================================================== mail part */
-.mail {
+.mail .container {
   background-color: var(--light-green);
+  border-radius: 20px;
 }
 .mail form {
   position: relative;

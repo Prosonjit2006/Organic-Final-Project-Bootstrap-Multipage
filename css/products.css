@@ -83,71 +83,8 @@
     height: 13px;
 }
 
-/* ========================================================================================== deal part */
-.deals {
-  overflow: hidden;
-  background-color: #fbfbfb;
-}
-.deals .container {
-  position: relative;
-}
-.right-last {
-  position: absolute;
-  top: 0;
-  right: -100%;
-  height: 325px;
-}
-.deal-box {
-  background-color: var(--green);
-  max-width: 650px;
-  width: 100%;
-  max-height: 390px;
-  height: 100%;
-  padding: 40px 20px 20px 40px;
-}
 
-.deal-btn {
-  width: 118px;
-  background-color: white;
-  border-radius: 10px;
-  font-size: 14px;
-  font-family: raleway;
-}
-.deal-btn:hover {
-  background-color: #5b5454;
-  color: white;
-}
-.light-green {
-  background-color: var(--light-green);
-}
 
-/* ========================================================================================== about part */
-
-.about {
-  padding: 72px 0;
-}
-
-.about .col {
-  padding: 20px;
-}
-
-.about figure {
-  max-width: 345px;
-  width: 100%;
-  max-height: 375px;
-  height: 100%;
-  position: relative;
-}
-
-.about figure::after {
-  content: url("../img/about/2.png");
-  display: block;
-  position: absolute;
-  width: 235px;
-  height: 215px;
-  bottom: -33%;
-  right: -32%;
-}
 
 /* ======================================================================================= products part */
 .products {
@@ -191,6 +128,10 @@
   margin-bottom: 5px;
 }
 
+.price-cart span{
+  color: #CFC7C7;
+}
+
 .product-btn {
   width: 96px;
   height: 36px;
@@ -220,128 +161,51 @@
   color: black;
 }
 
-/* ========================================================================================== offer part */
-.offer {
-  padding: 20px 0 90px;
+
+
+/* ======================================================================================= deal part */
+
+.deal{
+  background-image: url('../img/Products-page/2nd-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 410px;
 }
 
-.card-2-content {
-  border: 1px solid #333333;
-  padding: 25px 31px;
-  height: 95px;
+.deal .deal-content{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card-2-content p {
-  max-width: 135px;
-  width: 100%;
-  font-size: 14px;
+.deal .content{
+  text-align: center;
+  /* margin-top: 25px; */
+}
+.deal .content p{
   font-family: raleway;
-  font-weight: bold;
-  margin-top: 12px;
-}
-.card-2-content a {
-  font-size: 14px;
-  font-family: raleway;
-  font-weight: bold;
-  color: black;
-  text-decoration: underline;
-}
-
-/* =================================================================================== fruit & vegetable */
-
-.card-3 {
-  background-color: var(--green);
-}
-.card-3 .img {
-  /* padding: 10px; */
-  height: 130px;
-}
-.card-3 figure {
-  margin: 0 auto;
-  width: 150px;
-  /* height: 150px; */
-}
-
-.card-3-content {
-  border: 1px solid #646464;
-  border-top: none;
-  padding: 25px 31px;
-  height: 95px;
-  background-color: white;
-}
-
-.card-3-content p {
-  max-width: 135px;
+  max-width: 845px;
   width: 100%;
-  font-size: 14px;
-  font-family: raleway;
-  font-weight: bold;
-  margin-top: 12px;
-}
-.card-3-content a {
-  font-size: 14px;
-  font-family: raleway;
-  font-weight: bold;
-  color: black;
-  text-decoration: underline;
+  font-size: 24px;
+  margin: 40px 0;
 }
 
-/* ======================================================================================== about-2 part */
-.about-2 {
-  padding: 70px 0;
-}
-.about-2 p {
-  max-width: 535px;
-  width: 100%;
-  font-size: 14px;
-  font-family: inter;
-  font-weight: lighter;
-  letter-spacing: 0.6px;
-}
-.about-2 figure {
-  max-width: 365px;
-  width: 100%;
-  margin-left: auto;
-  position: relative;
-}
-.about-2 figure::after {
-  content: url("../img/about-2/2.png");
-  display: block;
-  width: 210px;
-  position: absolute;
-  bottom: -25%;
-  left: -15%;
-}
 
-/* ========================================================================================= review part */
-.review {
-  padding: 88px 0;
-}
-.review h2 {
-  margin-bottom: 120px;
-}
-.card-4 {
-  position: relative;
-  color: white;
-}
-.card-4-content {
-  background-color: var(--green);
-  max-width: 425px;
-  width: 100%;
-  height: 388px;
-  padding: 150px 22px 80px 22px;
-}
-.card-4 figure {
-  width: 178px;
-  position: absolute;
-  top: -20%;
-  left: 30%;
 
-  z-index: 10;
-}
-.card-4-content p {
-  font-family: inter;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ========== ------------ responsive part ----------- ========= */
 
